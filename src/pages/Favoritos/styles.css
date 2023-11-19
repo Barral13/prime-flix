@@ -35,3 +35,28 @@
     color: #116feb;
     margin-right: 14px;
 }
+
+.meus-filmes button {
+    background: #FF0000;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+@media(max-width: 660px) {
+
+    .meus-filmes {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .meus-filmes li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meus-filmes h1 {
+        font-size: 18px;
+    }
+}
